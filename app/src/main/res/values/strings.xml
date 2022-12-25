@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">CactusIpDetector</string>
+    <string name="check_internet">check internet</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="description">clicke the button to show the current ip that your phone connect and get from router</string>
+</resources>

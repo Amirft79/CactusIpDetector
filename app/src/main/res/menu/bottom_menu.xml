@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="my ip"
+        android:id="@+id/showIpFragment"
+        android:icon="@drawable/ic_baseline_signal_wifi_statusbar_connected_no_internet_4_24">
+    </item>
+    <item
+        android:title="history"
+        android:id="@+id/historyFragment"
+        android:icon="@drawable/ic_baseline_history_24">
+    </item>
+
+</menu>

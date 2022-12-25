@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_navigation"
+    app:startDestination="@id/showIpFragment">
+
+    <fragment
+        android:id="@+id/showIpFragment"
+        android:name="ir.cactus.app.cactusipdetector.ui.ShowIpFragment"
+        android:label="fragment_show_ip"
+        tools:layout="@layout/fragment_show_ip" >
+        <action
+            android:id="@+id/action_showIpFragment_to_historyFragment"
+            app:destination="@id/historyFragment"
+            app:enterAnim="@anim/nav_default_pop_enter_anim"
+            app:exitAnim="@anim/nav_default_pop_exit_anim" />
+    </fragment>
+    <fragment
+        android:id="@+id/historyFragment"
+        android:name="ir.cactus.app.cactusipdetector.ui.HistoryFragment"
+        android:label="fragment_history"
+        tools:layout="@layout/fragment_history" >
+        <action
+            android:id="@+id/action_historyFragment_to_showIpFragment"
+            app:destination="@id/showIpFragment"
+            app:enterAnim="@anim/nav_default_pop_enter_anim"
+            app:exitAnim="@anim/nav_default_pop_exit_anim" />
+    </fragment>
+</navigation>
